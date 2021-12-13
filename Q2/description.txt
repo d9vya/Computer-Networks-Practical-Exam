@@ -26,7 +26,7 @@ HERE, IN THE OUTPUT,
 
 -> Sender and receiver window size are both 4.
 
--> Since the frame 1 is lost, it is retransmitted after expiry of time out timer.
+-> Since the frame 0 is lost, it is retransmitted after expiry of time out timer.
 
 
 
