@@ -119,7 +119,7 @@ f=rand()%10;
 
 //if f=5 frame is discarded for some reason
 
-//else frame is correctly recieved
+//else frame is correctly received
 
 if(f!=5)
 
@@ -131,7 +131,7 @@ if(rcvd[j]==send[i])
 
 {
 
-cout<<"\nreciever:Frame "<<rcvd[j]<< "recieved correctly\n";
+cout<<"\nreceiver:Frame "<<rcvd[j]<< " received correctly\n";
 
 rcvd[j]=arr[rw];
 
@@ -143,13 +143,13 @@ break;
 int j;
 if(j==fr_send_at_instance)
 
-cout<<"\nreciever:Duplicate frame "<<send[i]<<" discarded\n";
+cout<<"\nreceiver:Duplicate frame "<<send[i]<<" discarded\n";
 
 a1=rand()%5;
 
 //if al==3 then ack is lost
 
-//else recieved
+//else received
 
 if(a1==3)
 
@@ -167,7 +167,7 @@ else
 
 {
 
-cout<<"(acknowledgement "<<send[i]<<" recieved)\n";
+cout<<"(acknowledgement "<<send[i]<<" received)\n";
 
 rcvd_ack[i]='p';
 
