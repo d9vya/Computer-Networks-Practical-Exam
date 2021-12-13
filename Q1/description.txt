@@ -1,0 +1,33 @@
+**Cyclic Redundancy Check**
+
+ 
+ -> Cyclic Redundancy Check (CRC) is an error detection method.
+    It is based on binary division.
+    
+ -> CRC uses Generator Polynomial which is available on both sender and receiver side.
+ 
+ HERE, IN THE OUTPUT,
+ 
+ -> the message send is 100100
+    the key value or the generator polynomial is 1101.
+    
+ -> On the sender's side, this data is divided by the key valur and we get the reminder as 001.
+ 
+ -> 001 is the CRC.
+ 
+ _> This remainder 001 is then augmented with the data, the encoded data sent become 100100001.
+ 
+ -> Code word received at the receiver side is now 100100001.
+ 
+ -> (a) part of the output (NO ERROR)
+    Now the receiver side will check the remainder which is all zeroes now, i.e, there was no error in transmisson.
+ 
+ -> (b) part of the output (ERROR DETECTED)
+    Now in Noisy Channel,
+    If the receiver got the code word as 100000001, the remainder will become 011, which means there was error in transmisson.
+    
+
+ 
+ 
+
+ 
