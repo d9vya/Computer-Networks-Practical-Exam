@@ -1,0 +1,33 @@
+**SELECTIVE REPEAT SLIDING WINDOW PROTOCOL**
+
+-> Selective repeat protocol, also called Selective Repeat ARQ (Automatic Repeat reQuest),
+   is a data link layer protocol that uses sliding window method for reliable delivery of data frames
+   
+-> Here, only the erroneous or lost frames are re-transmitted.
+
+-> In SR protocol, sender window size is always same as receiver window size.
+
+-> SR protocol uses independent acknowledgements only.
+
+-> SR protocol does not accept the corrupted frames but does not silently discard them.
+
+-> SR protocol accepts the out of order frames.
+
+-> SR protocol requires sorting at the receiver’s side.
+
+-> SR protocol requires searching at the sender’s side.
+
+-> SR protocol leads to retransmission of lost frames after expiry of time out timer.
+
+-> Efficiency of SR Protocol-
+       Efficiency = Sender Window Size in Protocol / (1 + 2a)
+       
+HERE, IN THE OUTPUT,
+
+-> Sender and receiver window size are both 4.
+
+-> Since the frame 1 is lost, it is retransmitted after expiry of time out timer.
+
+
+
+
