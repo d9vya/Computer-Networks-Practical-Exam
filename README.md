@@ -1,2 +1,2 @@
 # Computer-Networks-Practical-Exam
-Divya A 20201457
+Submitted by Divya A College Roll no: 20201457 Examination Roll no: 20016570005
